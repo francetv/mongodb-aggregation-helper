@@ -1,5 +1,5 @@
 {
-  "name": "ftven/aggregation",
+  "name": "ftven/mongodb-aggregation-helper",
   "description": "MongoDB aggregation helpêr",
   "license": "MIT",
   "keywords": ["mongodb", "aggregation"],
