@@ -18,13 +18,13 @@ You can use method to build aggregation. There are chainable.
 ```
 $aggregation = $this->createAggregate()
     ->addMatch([
-        'groupId' => $groupId,
-        'publication.startDate' => ['$gte' => $currentDate ],
+        'groupId' => 'group-id',
+        'publication.startDate' => ['$gte' => new \MongoDate() ],
     ])
     ->addSort([['field' => 'updated', "order" => 'desc']])
     ->addProject([
         'slug' => 1,
-        'diff' => ['$subtract' => [$currentDate, '$publication.startDate']]
+        'diff' => ['$subtract' => [new \MongoDate(), '$publication.startDate']]
     ]);
 ```
    
