@@ -1,0 +1,21 @@
+{
+  "name": "ftven/aggregation",
+  "description": "MongoDB aggregation helpêr",
+  "license": "MIT",
+  "keywords": ["mongodb", "aggregation"],
+  "authors": [
+    {
+      "name": "Thierry Thuon",
+      "email": "thierry.thuon.ext@francetv.fr"
+    }
+  ],
+  "require": {},
+  "require-dev": {
+    "phpunit/phpunit": "4.0.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ftven\\MongoDB\\": "src/Ftven/MongoDB/"
+    }
+  }
+}
