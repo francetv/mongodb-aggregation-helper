@@ -1,16 +1,29 @@
 # MongoDB Aggregation helper
 
-Class to help to build mongodb aggregation. 
+Class to help to build mongodb aggregation query. 
 
 ## Install
 
+In composer.json
+
 ```
-composer require ftven/mongodb-aggregation-helper
+"repositories": [
+    {
+        "type": "vcs",
+        "url": "git@gitlab.ftven.net:team-infini/mongodb-aggregation-helper.git"
+    }
+]
+```
+
+And run composer
+
+```
+composer require ftv/mongodb-aggregation-helper
 ```
 
 ## How to use
 
-Create a new instance of ```Ftven\MongoDB\Aggregation``` with an instance of \MongoCollection as parameter.
+Create a new instance of ```Ftv\MongoDB\Aggregation``` with an instance of \MongoCollection as parameter.
  
 
 You can use method to build aggregation. There are chainable.

@@ -1,6 +1,6 @@
 <?php
 
-namespace Ftven\MongoDB;
+namespace Ftv\MongoDB;
 
 /**
  * Class to help building aggregation query

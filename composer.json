@@ -1,6 +1,6 @@
 {
-  "name": "ftven/mongodb-aggregation-helper",
-  "description": "MongoDB aggregation helpêr",
+  "name": "ftv/mongodb-aggregation-helper",
+  "description": "MongoDB help yo biuld aggregation query.",
   "license": "MIT",
   "keywords": ["mongodb", "aggregation"],
   "authors": [
@@ -15,7 +15,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Ftven\\MongoDB\\": "src/Ftven/MongoDB/"
+      "Ftv\\MongoDB\\": "src/Ftv/MongoDB/"
     }
   }
 }

@@ -1,6 +1,6 @@
 <?php
 
-use Ftven\MongoDB\Aggregation;
+use Ftv\MongoDB\Aggregation;
 
 class AggregationTest extends \PHPUnit_Framework_TestCase
 {
