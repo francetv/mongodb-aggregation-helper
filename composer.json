@@ -3,12 +3,6 @@
   "description": "MongoDB help yo biuld aggregation query.",
   "license": "MIT",
   "keywords": ["mongodb", "aggregation"],
-  "authors": [
-    {
-      "name": "Thierry Thuon",
-      "email": "thierry.thuon.ext@francetv.fr"
-    }
-  ],
   "require": {},
   "require-dev": {
     "phpunit/phpunit": "4.0.*"

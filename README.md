@@ -1,6 +1,8 @@
 # MongoDB Aggregation helper
 
-Class to help to build mongodb aggregation query. 
+This project is part of [francetv zoom open source projects](https://github.com/francetv/zoom-public) (iOS, Android and Angular).
+
+Class to help to build mongodb aggregation query.
 
 ## Install
 
@@ -10,7 +12,7 @@ In composer.json
 "repositories": [
     {
         "type": "vcs",
-        "url": "git@gitlab.ftven.net:team-infini/mongodb-aggregation-helper.git"
+        "url": "git@github.com/francetv/mongodb-aggregation-helper.git"
     }
 ]
 ```
@@ -47,6 +49,3 @@ Then, execute it.
 ```
 $aggregation->execute();
 ```
-
----------------------------------------
-This project is part of [francetv zoom open source projects](https://gitlab.ftven.net/team-infini/zoom-public) (iOS, Android and Angular)
